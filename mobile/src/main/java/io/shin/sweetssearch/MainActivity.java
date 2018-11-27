@@ -2,12 +2,10 @@ package io.shin.sweetssearch;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.content.Intent;
+
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.view.View;
-import android.view.View.OnClickListener;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,8 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = (Button)findViewById(R.id.button2);
-        btn.setOnClickListener(new ButtonOnClickListener());
     }
 
     @Override
@@ -41,16 +37,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class ButtonOnClickListener implements OnClickListener {
-
-        @Override
-        public void onClick(View v) {
-
-            // 引数1：自身のActivity、引数2:移動先のActivity名
-            Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-            // Activityの移動
-            startActivity(intent);
-        }
-
-    }
 }
