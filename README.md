@@ -1,4 +1,4 @@
-# SweetsSearch<br><br>
+# SweetsSearch
 ## What's this?
 ジオフェンスの機能を活用した日常のちょっとしたアプリ<br><br>
 お店を登録しておくと、そのお店に近づいたときにリマインドしてくれます。<br><br>
