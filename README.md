@@ -17,7 +17,9 @@
 1. GoogleMapからリマインド機能として登録しておきたい場所、施設を選択します。<br><br>
 2. 選択した画面から、共有をタップします。<br><br>
 3. add Geofenceをタップします。<br><br>
+
 4. ADD GEOFENCEをタップし、場所を追加します。<br><br>
+![screenshot_2018-11-27-14-44-21](https://user-images.githubusercontent.com/45345968/49061120-565ddf00-f253-11e8-8264-9f525dffd885.png)
 5. AndroidWearとスマホをペアリングしておけば、登録した施設から設定した半径内に到達した時に、
 AndroidWearが振動し、お店情報を伝えてくれます。<br>
 ## ジオフェンス登録について
