@@ -1,25 +1,25 @@
-# SweetsSearch
+# SweetsSearch<br>
 ## アプリコンテンツ内容
-ジオフェンスを活用したアプリ
+ジオフェンスを活用したアプリ<br>
 ## ジオフェンスとは
 特定範囲の仮想境界線のことで、例えば弊社から500mをジオフェンスとしてマップに表示するとこんな感じの円になります。
-<img width="743" alt="geofence_500" src="https://user-images.githubusercontent.com/45345968/49057263-20fcc580-f242-11e8-8ed7-b0b5c995c5a6.png">
+<img width="743" alt="geofence_500" src="https://user-images.githubusercontent.com/45345968/49057263-20fcc580-f242-11e8-8ed7-b0b5c995c5a6.png"><br>
 
 ## 概要
 ジョギングやウォーキング、日常の移動の際にあらかじめ登録していた店舗の周囲に近づいたときに、
-身につけたAndroidWear（スマートウォッチ）が振動し知らせてくれるアプリ。
+身につけたAndroidWear（スマートウォッチ）が振動し知らせてくれるアプリ。<br>
 ## 特長
 スマートウォッチと相性の良いGPS機能を用いたアプリ
-自分の好みのジャンルの店舗を登録しておけばリマインド機能として活用できる。
+自分の好みのジャンルの店舗を登録しておけばリマインド機能として活用できる。<br>
 ## 使い方
-1.GoogleMapからリマインド機能として登録しておきたい場所、施設を選択します。<br>
-2.選択した画面から、共有をタップします。<br>
-3.add Geofenceをタップします。<br>
-4.ADD GEOFENCEをタップし、場所を追加します。<br>
-5.AndroidWearとスマホをペアリングしておけば、登録した施設から設定した半径内に到達した時に、
-AndroidWearが振動し、お店情報を伝えてくれます。
+1. GoogleMapからリマインド機能として登録しておきたい場所、施設を選択します。<br><br>
+2. 選択した画面から、共有をタップします。<br><br>
+3. add Geofenceをタップします。<br><br>
+4. ADD GEOFENCEをタップし、場所を追加します。<br><br>
+5. AndroidWearとスマホをペアリングしておけば、登録した施設から設定した半径内に到達した時に、
+AndroidWearが振動し、お店情報を伝えてくれます。<br>
 ## ジオフェンス登録について
--GoogleMapの共有用短縮URLからHEADリクエストしてlocationヘッダからリダイレクト先を取得します。
--リダイレクト先のcidパラメータを取得します。
--cidパラメータを使って http://maps.google.com/maps?cid=#{cid}&hl=ja&output=json にGETリクエストを送ります。
--centerプロパティ内のlat(緯度)とlng(経度)を取得します。
+- GoogleMapの共有用短縮URLからHEADリクエストしてlocationヘッダからリダイレクト先を取得します。<br>
+- リダイレクト先のcidパラメータを取得します。
+- cidパラメータを使って http://maps.google.com/maps?cid=#{cid}&hl=ja&output=json にGETリクエストを送ります。
+- centerプロパティ内のlat(緯度)とlng(経度)を取得します。
