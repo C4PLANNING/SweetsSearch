@@ -1,6 +1,6 @@
 # SweetsSearch<br>
-## アプリコンテンツ内容
-ジオフェンスを活用したアプリ<br>
+## What's this?
+ジオフェンスの機能を活用した日常のちょっとしたアプリ<br>
 ## ジオフェンスとは
 特定範囲の仮想境界線のことで、例えば弊社から500mをジオフェンスとしてマップに表示するとこんな感じの円になります。
 <img width="300" alt="geofence_500" src="https://user-images.githubusercontent.com/45345968/49057263-20fcc580-f242-11e8-8ed7-b0b5c995c5a6.png"><br>
