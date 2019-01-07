@@ -22,7 +22,7 @@
 3. add Geofenceをタップします。<br>
 <img width="500" alt="addGeofence" src="https://user-images.githubusercontent.com/45345968/49060771-45f93480-f252-11e8-9305-db5f6688052a.png"><br>
 4. ADD GEOFENCEをタップし、場所を追加します。<br>
-<img width="310" alt="addGeofence2" src="https://user-images.githubusercontent.com/45345968/49061120-565ddf00-f253-11e8-8264-9f525dffd885.png"><br>
+<img width="310" alt="addGeofence2" src="https://user-images.githubusercontent.com/45345968/50759549-a7c4a980-12a8-11e9-93b4-63ea7aa32211.png"><br>
 5. AndroidWearとスマホをペアリングしておけば、登録した施設から設定した半径内に到達した時に、
 AndroidWearが振動し、お店情報を伝えてくれます。<br><br>
 
