@@ -31,7 +31,7 @@ AndroidWearが振動し、お店情報を伝えてくれます。<br><img width=
 2.AndroidWearのGoogleMapでお店の場所を確かめます。<br><img width="310" alt="addGeofence4" src="https://user-images.githubusercontent.com/45345968/50759956-cb3c2400-12a9-11e9-8f10-07569885d985.png"><br><br>
 
 ## ジオフェンス登録について
-- GoogleMapの共有用短縮URLからHEADリクエストしてlocationヘッダからリダイレクト先を取得します。<br><br>
+- GoogleMapの共有用短縮URLからGETリクエストしてリダイレクト先を取得します。<br><br>
 - リダイレクト先のcidパラメータを取得します。<br><br>
-- cidパラメータを使って http://maps.google.com/maps?cid=#{cid}&hl=ja&output=json にGETリクエストを送ります。<br><br>
-- centerプロパティ内のlat(緯度)とlng(経度)を取得します。
+- cidパラメータとGoogle Maps API (Places API)を使って https://maps.googleapis.com/maps/api/place/details/json?cid={cid}&key={APIKey} にGETリクエストを送ります。<br><br>
+- json内のlat(緯度)とlng(経度)を取得します。
